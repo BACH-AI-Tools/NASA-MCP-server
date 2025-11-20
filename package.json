@@ -1,6 +1,6 @@
 {
-  "name": "@programcomputer/nasa-mcp-server",
-  "version": "1.0.13",
+  "name": "@bachstudio/nasa-mcp-server",
+  "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server for NASA APIs",
   "main": "dist/index.js",
   "files": [
@@ -27,7 +27,7 @@
     "mcp",
     "typescript"
   ],
-  "author": "",
+  "author": "bachstudio",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProgramComputer/NASA-MCP-server.git"
+    "url": "git+https://github.com/BACH-AI-Tools/NASA-MCP-server.git"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "",

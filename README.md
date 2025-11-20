@@ -1,4 +1,4 @@
-[![NPM Version](https://img.shields.io/npm/v/%40programcomputer%2Fnasa-mcp-server?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40programcomputer%2Fnasa-mcp-server)](https://www.npmjs.com/package/@programcomputer/nasa-mcp-server)
+[![NPM Version](https://img.shields.io/npm/v/%40bachstudio%2Fnasa-mcp-server?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40bachstudio%2Fnasa-mcp-server)](https://www.npmjs.com/package/@bachstudio/nasa-mcp-server)
 
 # NASA MCP Server
 
@@ -26,13 +26,13 @@ Big thanks to the MCP community for their support and guidance!
 ### Running with npx
 
 ```bash
-env NASA_API_KEY=YOUR_API_KEY npx -y @programcomputer/nasa-mcp-server@latest
+env NASA_API_KEY=YOUR_API_KEY npx -y @bachstudio/nasa-mcp-server@latest
 ```
 
 You can also pass the API key as a command line argument:
 
 ```bash
-npx -y @programcomputer/nasa-mcp-server@latest --nasa-api-key=YOUR_API_KEY
+npx -y @bachstudio/nasa-mcp-server@latest --nasa-api-key=YOUR_API_KEY
 ```
 
 ### Using SuperGateway for Server-Sent Events (SSE)
@@ -45,7 +45,7 @@ You can use [SuperGateway](https://github.com/supercorp-ai/supergateway) for Ser
 
 ```bash
 # Clone the repository
-git clone https://github.com/ProgramComputer/NASA-MCP-server.git
+git clone https://github.com/BACH-AI-Tools/NASA-MCP-server.git
 
 # Install dependencies
 cd NASA-MCP-server
@@ -68,7 +68,7 @@ Create or edit an `mcp.json` file in your Cursor configuration directory with th
   "mcpServers": {
     "nasa-mcp": {
       "command": "npx",
-      "args": ["-y", "@programcomputer/nasa-mcp-server@latest"],
+      "args": ["-y", "@bachstudio/nasa-mcp-server@latest"],
       "env": {
         "NASA_API_KEY": "your-api-key"
       }
@@ -228,7 +228,7 @@ This MCP server implements security best practices following the Model Context P
 
 ```bash
 # Clone the repository
-git clone https://github.com/ProgramComputer/NASA-MCP-server.git
+git clone https://github.com/BACH-AI-Tools/NASA-MCP-server.git
 
 # Install dependencies
 npm install
