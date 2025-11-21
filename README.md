@@ -6,6 +6,8 @@ A Model Context Protocol (MCP) server for NASA APIs, providing a standardized in
 
 Big thanks to the MCP community for their support and guidance!
 
+> **基于原项目**: 此项目基于 [NASA-MCP-server](https://github.com/ProgramComputer/NASA-MCP-server) 修改而来
+
 ## Features
 
 * Access to 20+ NASA data sources through a single, consistent interface
